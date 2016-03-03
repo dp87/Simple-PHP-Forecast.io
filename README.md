@@ -38,11 +38,9 @@ $current_pressure
 #### Arrays
 
 ```PHP
-$minutely_data_array = $result['minutely'];
-
-$hourly_data_array = $result['hourly'];
-
-$daily_data_array = $result['daily'];
+$minutely_data_array;
+$hourly_data_array;
+$daily_data_array;
 ```
 
 Simply cicle through these to extract the information you are interested in.
