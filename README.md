@@ -14,7 +14,7 @@ include 'lib/forecastlib.php';
 
 ## How to use
 
-All the information ends up in the `$result` array, so you can just take it and cycle over it as you see fit. However, I have also included some variables and arrays with the most commonly needed information so you can save some time.
+All the information ends up in the `$result` array, so you can just take it and loop over it as you see fit. However, I have also included some variables and arrays with the most commonly needed information so you can save some time.
 
 ### Included variables and arrays
 
@@ -43,7 +43,7 @@ $hourly_data_array;
 $daily_data_array;
 ```
 
-Simply cicle through these to extract the information you are interested in.
+Simply loop through these to extract the information you are interested in.
 
 ## More documentation
 
