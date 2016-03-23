@@ -22,6 +22,26 @@ Replace the string with your personal API key and you can start making requests.
 
 ## How to use
 
+Configure your preferred units and language:
+
+```PHP
+# Possible values for units are [us, si, ca, uk2, auto]
+$units = 'si';
+
+# Possible values for language are [ar, bs, cs, de, el, en, es, fr, hr, hu, it, is, kw, nb, nl, pl, pt, ru, sk, sr, sv, tet, tr, uk, x-pig-latin, zh, zh-tw]
+$language = 'en';
+```
+
+Then configure the geographical coordinates for the location you want to fetch weather info:
+
+```PHP
+# COORDINATES
+#############
+
+$latitude = 51;
+$longitude = 32;
+```
+
 All the information ends up in the `$result` array, so you can just take it and loop over it as you see fit. However, I have also included some variables and arrays with the most commonly needed information so you can save some time.
 
 ### Included variables and arrays

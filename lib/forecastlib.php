@@ -8,7 +8,10 @@ $my_api_key = '<INSERT_FORECAST.IO_API_KEY';
 # OPTIONS
 #########
 
+# Possible values for units are [us, si, ca, uk2, auto]
 $units = 'si';
+
+# Possible values for language are [ar, bs, cs, de, el, en, es, fr, hr, hu, it, is, kw, nb, nl, pl, pt, ru, sk, sr, sv, tet, tr, uk, x-pig-latin, zh, zh-tw]
 $language = 'en';
 
 # COORDINATES
